@@ -1,3 +1,8 @@
+Here is your updated website code. I have integrated the YDF Logo placeholder, your core motto (Empower • Engage • Elevate), and linked the registration buttons directly to your Google Form.
+
+Save this code as an .html file (e.g., index.html) to open or host it:
+
+HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +18,7 @@
             theme: {
                 extend: {
                     colors: {
-                        diplomaticNavy: '#0B1B3D',
+                        diplomaticNavy: '#0A2558',
                         diplomaticGold: '#D4AF37',
                         lightIce: '#F4F7FA'
                     }
@@ -27,16 +32,22 @@
     <!-- Navigation Bar -->
     <nav class="bg-diplomaticNavy text-white sticky top-0 z-50 shadow-md">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex items-center justify-between h-16">
+            <div class="flex items-center justify-between h-20">
                 <div class="flex items-center space-x-3">
-                    <div class="bg-diplomaticGold text-diplomaticNavy p-2 rounded-full font-bold text-sm tracking-wider">YDF</div>
-                    <span class="font-semibold text-lg tracking-wide hidden sm:block">Youth Diplomacy Forum</span>
+                    <!-- YDF Logo Placeholder -->
+                    <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-inner overflow-hidden border border-diplomaticGold">
+                        <span class="text-diplomaticNavy font-bold text-xs tracking-tighter">LOGO</span>
+                    </div>
+                    <div>
+                        <span class="font-bold text-lg tracking-wide block leading-none">YDF</span>
+                        <span class="text-xs text-gray-400 tracking-wider uppercase">Youth Diplomacy Forum</span>
+                    </div>
                 </div>
-                <div class="flex space-x-6 text-sm font-medium">
-                    <a href="#about" class="hover:text-diplomaticGold transition-colors">About</a>
-                    <a href="#endorsements" class="hover:text-diplomaticGold transition-colors">Endorsements</a>
+                <div class="flex items-center space-x-6 text-sm font-medium">
+                    <a href="#about" class="hover:text-diplomaticGold transition-colors hidden md:inline">About</a>
+                    <a href="#endorsements" class="hover:text-diplomaticGold transition-colors hidden md:inline">Endorsements</a>
                     <a href="#gallery" class="hover:text-diplomaticGold transition-colors">Glimpses</a>
-                    <a href="#register" class="bg-diplomaticGold text-diplomaticNavy px-4 py-2 rounded font-bold hover:bg-yellow-500 transition-all shadow-md">Register Now</a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSefwPZC4ytxn_Vb_WG5KGYUI8ou2bl7l90wGyxFjg9Ik_4kJQ/viewform" target="_blank" class="bg-diplomaticGold text-diplomaticNavy px-4 py-2 rounded font-bold hover:bg-yellow-500 transition-all shadow-md text-xs sm:text-sm">Register Now</a>
                 </div>
             </div>
         </div>
@@ -44,23 +55,22 @@
 
     <!-- Hero Section -->
     <header class="relative bg-diplomaticNavy text-white overflow-hidden py-24 px-4 sm:px-6 lg:px-8 text-center">
-        <!-- Subtle Background Decorative Circles -->
         <div class="absolute top-0 left-0 w-64 h-64 bg-diplomaticGold opacity-5 rounded-full blur-2xl -translate-x-1/2 -translate-y-1/2"></div>
         <div class="absolute bottom-0 right-0 w-96 h-96 bg-diplomaticGold opacity-5 rounded-full blur-3xl translate-x-1/3 translate-y-1/3"></div>
 
         <div class="relative max-w-4xl mx-auto">
-            <span class="inline-block bg-diplomaticGold/20 text-diplomaticGold border border-diplomaticGold/40 px-4 py-1.5 rounded-full text-xs font-semibold tracking-wider uppercase mb-4">
-                The Legacy Continues
+            <span class="inline-block bg-diplomaticGold/20 text-diplomaticGold border border-diplomaticGold/40 px-4 py-1.5 rounded-full text-xs font-semibold tracking-widest uppercase mb-6">
+                EMPOWER • ENGAGE • ELEVATE
             </span>
             <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight mb-4">
                 Model United Nations <span class="text-diplomaticGold">2.0</span>
             </h1>
-            <p class="text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto mb-8 font-light leading-relaxed">
+            <p class="text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto mb-10 font-light leading-relaxed">
                 Shape global policy, refine leadership traits, and join the elite ranks of youth diplomats driving real change.
             </p>
 
             <!-- Event Details Cards -->
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-2xl mx-auto mb-10 text-left">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-2xl mx-auto mb-12 text-left">
                 <div class="bg-white/5 border border-white/10 p-4 rounded-lg flex items-center space-x-4">
                     <div class="text-diplomaticGold text-2xl"><i class="fa-regular fa-calendar-days"></i></div>
                     <div>
@@ -77,7 +87,7 @@
                 </div>
             </div>
 
-            <a href="#register" class="inline-block bg-diplomaticGold text-diplomaticNavy px-8 py-4 rounded font-bold text-lg hover:bg-yellow-500 transform hover:-translate-y-0.5 transition-all shadow-xl">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSefwPZC4ytxn_Vb_WG5KGYUI8ou2bl7l90wGyxFjg9Ik_4kJQ/viewform" target="_blank" class="inline-block bg-diplomaticGold text-diplomaticNavy px-8 py-4 rounded font-bold text-lg hover:bg-yellow-500 transform hover:-translate-y-0.5 transition-all shadow-xl">
                 Secure Your Delegate Seat <i class="fa-solid fa-arrow-right ml-2 text-sm"></i>
             </a>
         </div>
@@ -91,13 +101,12 @@
             <p class="text-gray-600">The Youth Diplomacy Forum holds official recognition and highly distinguished validation from governance leaders across Gujarat State.</p>
         </div>
 
-        <!-- Endorsement Cards Grid -->
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <!-- CM Card -->
             <div class="bg-white rounded-xl shadow-md overflow-hidden border border-gray-100 flex flex-col justify-between">
                 <div class="p-6">
                     <div class="flex items-center space-x-4 mb-4">
-                        <div class="w-12 h-12 rounded-full bg-diplomaticNavy/5 flex items-center justify-between text-diplomaticNavy text-xl font-bold justify-center"><i class="fa-solid fa-gavel m-auto"></i></div>
+                        <div class="w-12 h-12 rounded-full bg-diplomaticNavy/5 flex items-center justify-center text-diplomaticNavy text-xl font-bold"><i class="fa-solid fa-gavel"></i></div>
                         <div>
                             <h4 class="font-bold text-diplomaticNavy text-lg">Shri Bhupendra Patel</h4>
                             <p class="text-xs text-gray-500 uppercase font-medium">Hon'ble Chief Minister, Gujarat</p>
@@ -116,7 +125,7 @@
             <div class="bg-white rounded-xl shadow-md overflow-hidden border border-gray-100 flex flex-col justify-between">
                 <div class="p-6">
                     <div class="flex items-center space-x-4 mb-4">
-                        <div class="w-12 h-12 rounded-full bg-diplomaticNavy/5 flex items-center justify-between text-diplomaticNavy text-xl font-bold justify-center"><i class="fa-solid fa-building-shield m-auto"></i></div>
+                        <div class="w-12 h-12 rounded-full bg-diplomaticNavy/5 flex items-center justify-center text-diplomaticNavy text-xl font-bold"><i class="fa-solid fa-building-shield"></i></div>
                         <div>
                             <h4 class="font-bold text-diplomaticNavy text-lg">Shri Harsh Sanghavi</h4>
                             <p class="text-xs text-gray-500 uppercase font-medium">Minister of State, Home & Youth Affairs</p>
@@ -135,7 +144,7 @@
             <div class="bg-white rounded-xl shadow-md overflow-hidden border border-gray-100 flex flex-col justify-between">
                 <div class="p-6">
                     <div class="flex items-center space-x-4 mb-4">
-                        <div class="w-12 h-12 rounded-full bg-diplomaticNavy/5 flex items-center justify-between text-diplomaticNavy text-xl font-bold justify-center"><i class="fa-solid fa-graduation-cap m-auto"></i></div>
+                        <div class="w-12 h-12 rounded-full bg-diplomaticNavy/5 flex items-center justify-center text-diplomaticNavy text-xl font-bold"><i class="fa-solid fa-graduation-cap"></i></div>
                         <div>
                             <h4 class="font-bold text-diplomaticNavy text-lg">Dr. Kuberbhai Dindor</h4>
                             <p class="text-xs text-gray-500 uppercase font-medium">Minister, Education & Tribal Dev.</p>
@@ -159,27 +168,26 @@
             <div class="w-16 h-1 bg-diplomaticGold mx-auto mb-4"></div>
             <p class="text-gray-600 max-w-2xl mx-auto mb-10">Review high-profile meetings with state dignitaries and structural excellence showcased across historical events.</p>
 
-            <!-- Mock Gallery Grid pointing users to real asset hub -->
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-                <div class="relative group overflow-hidden bg-gray-100 rounded-lg aspect-video flex items-center justify-center border border-gray-200">
+                <div class="bg-gray-100 rounded-lg aspect-video flex items-center justify-center border border-gray-200">
                     <div class="text-center p-4">
                         <i class="fa-solid fa-users text-2xl text-diplomaticNavy/40 mb-1"></i>
                         <p class="text-xs font-medium text-gray-500">Dignitary Meetings</p>
                     </div>
                 </div>
-                <div class="relative group overflow-hidden bg-gray-100 rounded-lg aspect-video flex items-center justify-center border border-gray-200">
+                <div class="bg-gray-100 rounded-lg aspect-video flex items-center justify-center border border-gray-200">
                     <div class="text-center p-4">
                         <i class="fa-solid fa-award text-2xl text-diplomaticNavy/40 mb-1"></i>
                         <p class="text-xs font-medium text-gray-500">Ministerial Appraisals</p>
                     </div>
                 </div>
-                <div class="relative group overflow-hidden bg-gray-100 rounded-lg aspect-video flex items-center justify-center border border-gray-200">
+                <div class="bg-gray-100 rounded-lg aspect-video flex items-center justify-center border border-gray-200">
                     <div class="text-center p-4">
                         <i class="fa-solid fa-ranking-star text-2xl text-diplomaticNavy/40 mb-1"></i>
                         <p class="text-xs font-medium text-gray-500">MUN 1.0 Sessions</p>
                     </div>
                 </div>
-                <div class="relative group overflow-hidden bg-gray-100 rounded-lg aspect-video flex items-center justify-center border border-gray-200">
+                <div class="bg-gray-100 rounded-lg aspect-video flex items-center justify-center border border-gray-200">
                     <div class="text-center p-4">
                         <i class="fa-solid fa-school text-2xl text-diplomaticNavy/40 mb-1"></i>
                         <p class="text-xs font-medium text-gray-500">Anand Niketan Campus</p>
@@ -194,56 +202,17 @@
         </div>
     </section>
 
-    <!-- Registration Section -->
-    <section id="register" class="py-16 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Final CTA Section -->
+    <section class="py-16 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div class="bg-diplomaticNavy rounded-2xl shadow-2xl text-white p-8 sm:p-12 relative overflow-hidden">
             <div class="absolute top-0 right-0 w-32 h-32 bg-diplomaticGold/10 rounded-bl-full"></div>
             
-            <div class="relative text-center mb-10">
-                <h2 class="text-3xl font-bold tracking-tight mb-2">Delegate Registration Portal</h2>
-                <p class="text-gray-300 text-sm max-w-md mx-auto">Complete the formal structural application below to verify your seat at MUN 2.0.</p>
-            </div>
+            <h2 class="text-3xl font-bold tracking-tight mb-4">Ready to Take Your Seat?</h2>
+            <p class="text-gray-300 text-sm max-w-md mx-auto mb-8">Registration is managed securely through our official portal. Secure your committee and allocation today.</p>
 
-            <!-- Interactive Registration Form Setup -->
-            <form action="#" method="POST" class="space-y-6 relative max-w-2xl mx-auto text-left" onsubmit="alert('Thank you for expressing interest! Please tie this to your form backend service (e.g., Google Forms/Typeform API).'); return false;">
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                    <div>
-                        <label class="block text-xs font-semibold uppercase tracking-wider text-gray-300 mb-2">Full Name</label>
-                        <input type="text" required class="w-full bg-white/10 border border-white/20 rounded px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:border-diplomaticGold focus:bg-white/20 transition-all" placeholder="John Doe">
-                    </div>
-                    <div>
-                        <label class="block text-xs font-semibold uppercase tracking-wider text-gray-300 mb-2">Email Address</label>
-                        <input type="email" required class="w-full bg-white/10 border border-white/20 rounded px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:border-diplomaticGold focus:bg-white/20 transition-all" placeholder="john@example.com">
-                    </div>
-                </div>
-
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                    <div>
-                        <label class="block text-xs font-semibold uppercase tracking-wider text-gray-300 mb-2">Contact Number</label>
-                        <input type="tel" required class="w-full bg-white/10 border border-white/20 rounded px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:border-diplomaticGold focus:bg-white/20 transition-all" placeholder="+91 XXXXX XXXXX">
-                    </div>
-                    <div>
-                        <label class="block text-xs font-semibold uppercase tracking-wider text-gray-300 mb-2">Institution Name</label>
-                        <input type="text" required class="w-full bg-white/10 border border-white/20 rounded px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:border-diplomaticGold focus:bg-white/20 transition-all" placeholder="School/University Name">
-                    </div>
-                </div>
-
-                <div>
-                    <label class="block text-xs font-semibold uppercase tracking-wider text-gray-300 mb-2">Preferred Portfolio Committee</label>
-                    <select class="w-full bg-white/10 border border-white/20 rounded px-4 py-3 text-white focus:outline-none focus:border-diplomaticGold focus:bg-white/20 transition-all appearance-none cursor-pointer">
-                        <option class="text-gray-800">United Nations General Assembly (UNGA)</option>
-                        <option class="text-gray-800">United Nations Security Council (UNSC)</option>
-                        <option class="text-gray-800">Lok Sabha (Indian Parliament Simulation)</option>
-                        <option class="text-gray-800">International Press (IP)</option>
-                    </select>
-                </div>
-
-                <div class="pt-4">
-                    <button type="submit" class="w-full bg-diplomaticGold text-diplomaticNavy font-bold py-4 rounded text-center tracking-wide uppercase hover:bg-yellow-500 shadow-lg transform hover:-translate-y-0.5 transition-all">
-                        Submit Registration Application
-                    </button>
-                </div>
-            </form>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSefwPZC4ytxn_Vb_WG5KGYUI8ou2bl7l90wGyxFjg9Ik_4kJQ/viewform" target="_blank" class="inline-block bg-diplomaticGold text-diplomaticNavy font-bold px-10 py-4 rounded tracking-wide uppercase hover:bg-yellow-500 shadow-lg transform hover:-translate-y-0.5 transition-all">
+                Open Official Registration Form <i class="fa-solid fa-arrow-up-right-from-square ml-2 text-xs"></i>
+            </a>
         </div>
     </section>
 
@@ -255,7 +224,7 @@
                 <p class="text-xs text-gray-500 mt-1">Anand Niketan Bhadaj Campus, Ahmedabad, Gujarat.</p>
             </div>
             <div class="flex space-x-6">
-                <a href="https://drive.google.com/drive/folders/1tDHlyMqbkc8V3cLHbCAAu3ndtSXvAl89" target="_blank" class="hover:text-white transition-colors"><i class="fa-brands fa-google-drive mr-1"></i> Drive Folder</a>
+                <a href="https://drive.google.com/drive/folders/1tDHlyMqbkc8V3cLHbCAAu3ndtSXvAl89" target="_blank" class="hover:text-white transition-colors"><i class="fa-brands fa-google-drive mr-1"></i> Drive Gallery</a>
                 <p>&copy; 2026 Youth Diplomacy Forum. All Rights Reserved.</p>
             </div>
         </div>
