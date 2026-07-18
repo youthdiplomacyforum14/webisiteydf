@@ -5,7 +5,228 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Youth Diplomacy Forum | MUN 2.0</title>
     <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailw<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youth Diplomacy Forum | MUN 2.0</title>
+    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        diplomaticNavy: '#0A2558',
+                        diplomaticGold: '#D4AF37',
+                        lightIce: '#F4F7FA'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-lightIce text-gray-800 font-sans antialiased">
+
+    <!-- Navigation Bar -->
+    <nav class="bg-diplomaticNavy text-white sticky top-0 z-50 shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex items-center space-x-3">
+                    <!-- Integrated YDF Logo Badge -->
+                    <img src="ydflogonew.jpeg" alt="YDF Logo" class="w-14 h-14 rounded-full object-contain bg-white p-1 border border-diplomaticGold shadow-sm">
+                    <div>
+                        <span class="font-bold text-lg tracking-wide block leading-none">YDF</span>
+                        <span class="text-xs text-gray-400 tracking-wider uppercase">Youth Diplomacy Forum</span>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-6 text-sm font-medium">
+                    <a href="#endorsements" class="hover:text-diplomaticGold transition-colors hidden md:inline">Endorsements</a>
+                    <a href="#gallery" class="hover:text-diplomaticGold transition-colors">Meeting Glimpses</a>
+                    <a href="#letters" class="hover:text-diplomaticGold transition-colors hidden sm:inline">Official Letters</a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSefwPZC4ytxn_Vb_WG5KGYUI8ou2bl7l90wGyxFjg9Ik_4kJQ/viewform" target="_blank" class="bg-diplomaticGold text-diplomaticNavy px-4 py-2 rounded font-bold hover:bg-yellow-500 transition-all shadow-md text-xs sm:text-sm">Register Now</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative bg-diplomaticNavy text-white overflow-hidden py-20 px-4 sm:px-6 lg:px-8 text-center">
+        <div class="absolute top-0 left-0 w-64 h-64 bg-diplomaticGold opacity-5 rounded-full blur-2xl -translate-x-1/2 -translate-y-1/2"></div>
+        <div class="absolute bottom-0 right-0 w-96 h-96 bg-diplomaticGold opacity-5 rounded-full blur-3xl translate-x-1/3 translate-y-1/3"></div>
+
+        <div class="relative max-w-4xl mx-auto">
+            <span class="inline-block bg-diplomaticGold/20 text-diplomaticGold border border-diplomaticGold/40 px-4 py-1.5 rounded-full text-xs font-semibold tracking-widest uppercase mb-6">
+                EMPOWER • ENGAGE • ELEVATE
+            </span>
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight mb-4">
+                Model United Nations <span class="text-diplomaticGold">2.0</span>
+            </h1>
+            <p class="text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto mb-10 font-light leading-relaxed">
+                Shape global policy, refine leadership traits, and join the elite ranks of youth diplomats driving real change.
+            </p>
+
+            <!-- Event Details Cards -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-2xl mx-auto mb-12 text-left">
+                <div class="bg-white/5 border border-white/10 p-4 rounded-lg flex items-center space-x-4">
+                    <div class="text-diplomaticGold text-2xl"><i class="fa-regular fa-calendar-days"></i></div>
+                    <div>
+                        <p class="text-xs text-gray-400 uppercase tracking-wider">Date & Duration</p>
+                        <p class="font-semibold text-sm sm:text-base text-white">30th, 31st Oct & 1st Nov</p>
+                    </div>
+                </div>
+                <div class="bg-white/5 border border-white/10 p-4 rounded-lg flex items-center space-x-4">
+                    <div class="text-diplomaticGold text-2xl"><i class="fa-solid fa-location-dot"></i></div>
+                    <div>
+                        <p class="text-xs text-gray-400 uppercase tracking-wider">Venue Partner</p>
+                        <p class="font-semibold text-sm sm:text-base text-white">Anand Niketan, Bhadaj Campus</p>
+                    </div>
+                </div>
+            </div>
+
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSefwPZC4ytxn_Vb_WG5KGYUI8ou2bl7l90wGyxFjg9Ik_4kJQ/viewform" target="_blank" class="inline-block bg-diplomaticGold text-diplomaticNavy px-8 py-4 rounded font-bold text-lg hover:bg-yellow-500 transform hover:-translate-y-0.5 transition-all shadow-xl">
+                Secure Your Delegate Seat <i class="fa-solid fa-arrow-right ml-2 text-sm"></i>
+            </a>
+        </div>
+    </header>
+
+    <!-- Photo Glimpses with Dignitaries -->
+    <section id="gallery" class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-12">
+            <h2 class="text-3xl font-bold text-diplomaticNavy mb-2">Dignitary Meetings & Core Leadership</h2>
+            <div class="w-16 h-1 bg-diplomaticGold mx-auto mb-4"></div>
+            <p class="text-gray-600">Reviewing milestones, receiving continuous structural guidance, and expanding public policy outreach alongside key administration leaders.</p>
+        </div>
+
+        <!-- Dignitaries Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 mb-8">
+            <!-- CM Meeting Photo (Newly Added) -->
+            <div class="bg-white rounded-xl shadow overflow-hidden border border-gray-200">
+                <img src="cmmeetydf.jpeg" alt="Meeting with Shri Bhupendra Patel" class="w-full h-56 object-cover hover:scale-105 transition-transform duration-300">
+                <div class="p-4 bg-white text-center">
+                    <p class="font-bold text-sm text-diplomaticNavy">Meeting with Shri Bhupendra Patel</p>
+                    <p class="text-xs text-gray-500">Hon'ble Chief Minister, Gujarat</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow overflow-hidden border border-gray-200">
+                <img src="dycmmeetydf.jpeg" alt="Meeting with Shri Harsh Sanghavi" class="w-full h-56 object-cover hover:scale-105 transition-transform duration-300">
+                <div class="p-4 bg-white text-center">
+                    <p class="font-bold text-sm text-diplomaticNavy">Meeting with Shri Harsh Sanghavi</p>
+                    <p class="text-xs text-gray-500">Minister of State, Home & Youth Affairs</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow overflow-hidden border border-gray-200">
+                <img src="kuberbhaimeetydf.jpeg" alt="Meeting with Dr. Kuberbhai Dindor" class="w-full h-56 object-cover hover:scale-105 transition-transform duration-300">
+                <div class="p-4 bg-white text-center">
+                    <p class="font-bold text-sm text-diplomaticNavy">Meeting with Dr. Kuberbhai Dindor</p>
+                    <p class="text-xs text-gray-500">Minister, Education & Tribal Development</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow overflow-hidden border border-gray-200">
+                <img src="ramanbhaimeetydf.jpeg" alt="Meeting with Legislative Delegation" class="w-full h-56 object-cover hover:scale-105 transition-transform duration-300">
+                <div class="p-4 bg-white text-center">
+                    <p class="font-bold text-sm text-diplomaticNavy">Legislative Council Guidance</p>
+                    <p class="text-xs text-gray-500">Shaping Parliament Simulations</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow overflow-hidden border border-gray-200">
+                <img src="manishabenmeetydf.jpeg" alt="Dignitary Delegation Interaction" class="w-full h-56 object-cover hover:scale-105 transition-transform duration-300">
+                <div class="p-4 bg-white text-center">
+                    <p class="font-bold text-sm text-diplomaticNavy">Administrative Appraisals</p>
+                    <p class="text-xs text-gray-500">Promoting Inclusive Youth Platforms</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Official Commendations & Letters Gallery -->
+    <section id="letters" class="py-16 bg-white border-t border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <h2 class="text-3xl font-bold text-diplomaticNavy mb-2">Letters of Commendation</h2>
+                <div class="w-16 h-1 bg-diplomaticGold mx-auto mb-4"></div>
+                <p class="text-gray-600">Official validations and appreciation certificates issued directly to the Youth Diplomacy Forum leadership.</p>
+            </div>
+
+            <!-- Documents Slider Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 mb-10">
+                <div class="bg-lightIce p-3 rounded-lg border border-gray-300 shadow-sm flex flex-col items-center">
+                    <img src="cmletterydf.jpeg" alt="CM Gujarat Validation" class="w-full h-64 object-contain shadow bg-white rounded cursor-pointer hover:opacity-90 transition-opacity">
+                    <p class="text-xs font-bold text-diplomaticNavy mt-3 text-center">Shri Bhupendra Patel</p>
+                    <p class="text-[10px] text-gray-500">Chief Minister, Gujarat</p>
+                </div>
+
+                <div class="bg-lightIce p-3 rounded-lg border border-gray-300 shadow-sm flex flex-col items-center">
+                    <img src="dycmletterydf.jpeg" alt="Home Minister Validation" class="w-full h-64 object-contain shadow bg-white rounded cursor-pointer hover:opacity-90 transition-opacity">
+                    <p class="text-xs font-bold text-diplomaticNavy mt-3 text-center">Shri Harsh Sanghavi</p>
+                    <p class="text-[10px] text-gray-500">Home & Youth Affairs Minister</p>
+                </div>
+
+                <div class="bg-lightIce p-3 rounded-lg border border-gray-300 shadow-sm flex flex-col items-center">
+                    <img src="edminletterydf.jpeg" alt="Education Minister Validation" class="w-full h-64 object-contain shadow bg-white rounded cursor-pointer hover:opacity-90 transition-opacity">
+                    <p class="text-xs font-bold text-diplomaticNavy mt-3 text-center">Dr. Kuberbhai Dindor</p>
+                    <p class="text-[10px] text-gray-500">Education Minister</p>
+                </div>
+
+                <div class="bg-lightIce p-3 rounded-lg border border-gray-300 shadow-sm flex flex-col items-center">
+                    <img src="mayoramcletterydf.jpeg" alt="Ahmedabad Mayor Commendation" class="w-full h-64 object-contain shadow bg-white rounded cursor-pointer hover:opacity-90 transition-opacity">
+                    <p class="text-xs font-bold text-diplomaticNavy mt-3 text-center">Shri Hitesh Barot</p>
+                    <p class="text-[10px] text-gray-500">Mayor, AMC (Ahmedabad)</p>
+                </div>
+
+                <div class="bg-lightIce p-3 rounded-lg border border-gray-300 shadow-sm flex flex-col items-center">
+                    <img src="anbcletterydf.jpeg" alt="Anand Niketan Recommendation" class="w-full h-64 object-contain shadow bg-white rounded cursor-pointer hover:opacity-90 transition-opacity">
+                    <p class="text-xs font-bold text-diplomaticNavy mt-3 text-center">Principal Recommendation</p>
+                    <p class="text-[10px] text-gray-500">Anand Niketan, Bhadaj</p>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <a href="https://drive.google.com/drive/folders/1tDHlyMqbkc8V3cLHbCAAu3ndtSXvAl89" target="_blank" class="inline-flex items-center space-x-2 text-diplomaticNavy border border-diplomaticNavy/30 bg-lightIce px-6 py-3 rounded font-semibold hover:bg-diplomaticNavy hover:text-white transition-all shadow-sm text-sm">
+                    <i class="fa-brands fa-google-drive text-green-600 text-base"></i>
+                    <span>Access Comprehensive Google Drive Folder</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Area -->
+    <section class="py-16 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div class="bg-diplomaticNavy rounded-2xl shadow-2xl text-white p-8 sm:p-12 relative overflow-hidden">
+            <div class="absolute top-0 right-0 w-32 h-32 bg-diplomaticGold/10 rounded-bl-full"></div>
+            
+            <h2 class="text-3xl font-bold tracking-tight mb-4">Ready to Take Your Seat?</h2>
+            <p class="text-gray-300 text-sm max-w-md mx-auto mb-8">Registration is managed securely through our verified portal. Secure your preferred committee allocation today.</p>
+
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSefwPZC4ytxn_Vb_WG5KGYUI8ou2bl7l90wGyxFjg9Ik_4kJQ/viewform" target="_blank" class="inline-block bg-diplomaticGold text-diplomaticNavy font-bold px-10 py-4 rounded tracking-wide uppercase hover:bg-yellow-500 shadow-lg transform hover:-translate-y-0.5 transition-all text-sm sm:text-base">
+                Open Official Registration Form <i class="fa-solid fa-arrow-up-right-from-square ml-2 text-xs"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-diplomaticNavy text-gray-400 py-8 border-t border-white/5 text-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between text-center sm:text-left space-y-4 sm:space-y-0">
+            <div>
+                <p class="text-white font-semibold">Youth Diplomacy Forum</p>
+                <p class="text-xs text-gray-500 mt-1">Anand Niketan Bhadaj Campus, Ahmedabad, Gujarat.</p>
+            </div>
+            <div class="flex space-x-6">
+                <a href="https://drive.google.com/drive/folders/1tDHlyMqbkc8V3cLHbCAAu3ndtSXvAl89" target="_blank" class="hover:text-white transition-colors"><i class="fa-brands fa-google-drive mr-1"></i> Drive Gallery</a>
+                <p>&copy; 2026 Youth Diplomacy Forum. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>indcss.com"></script>
     <!-- FontAwesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script>
